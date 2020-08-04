@@ -5,9 +5,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class BetterRealisticWorld extends JavaPlugin implements Listener {
-    //THIS IS THE MAIN CLASS.
-    //this was originally called BetterRealisticWorld but i wanted to make a sort off toolbox.
-    //enjoy decompiling ❤
 
     @Override
     public void onEnable() {
@@ -21,7 +18,7 @@ public final class BetterRealisticWorld extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new breakItemEvent(), this);
         getServer().getPluginManager().registerEvents(new BucketEmptyEvent(), this);
         getServer().getPluginManager().registerEvents(new BucketFillEvent(), this);
-        Metrics metrics = new Metrics(this, 	8340);
+        Metrics metrics = new Metrics(this, 	[metrics code]);
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         System.out.println("PLUGIN: on");
