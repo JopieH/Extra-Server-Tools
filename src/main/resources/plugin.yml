@@ -1,0 +1,13 @@
+name: ExtraServerTools
+version: ${project.version}
+main: me.jopieh.betterrealisticworld.BetterRealisticWorld
+api-version: 1.15
+authors: [JopieH]
+description: Extra (better) tools for your server!
+website: https://jppvpmc.enjin.com/
+commands:
+  est reload:
+    description: reloads the config
+permissions:
+  est.reload:
+    default: OP

@@ -1,0 +1,38 @@
+#thanks for using ExtraServerTools (EST)!
+#if you need help, join our discord: https://discord.gg/m2qvrRr
+
+
+#BED INTERACT EVENTS
+
+#want a world with no sleeping? then toggle this here.
+#ONLY true or false
+cancelsleep: false
+
+#BedLeave and BedEnter message sent to players.
+#if you enter/leave a bed, it will send a message to the player.
+
+BedEnterMsg: 'you are trying to sleep...' #toggle this when you put cancelsleep to true.
+BedLeaveMsg: 'you left your bed.'
+
+
+#Death Messages;
+DeathMessage: '&r%player_name% died, &cOOF'
+
+#Player Leave Event Message.
+#Color Codes Supported.
+LeaveMessage: '&e%player_name% has left the server.'
+FirstJoinMessage: '&e%player_name% has joined the server for the first time!'
+JoinMessage: '&e%player_name% has joined the server!'
+
+#BREAK ITEM EVENT
+#Message when a player breaks an  item.
+BreakItemPlayerMsg: 'You Broke an Item, Better Craft a New One!'
+BreakItemConsoleMsg: '%player_name% Broke an Item.'
+
+
+
+#BUCKET EVENTS
+#Bucket empty message to player;
+BucketEmptyMsg: '&cYou Emptied a bucket!'
+BucketFillMsg: '&bYou Filled a bucket!'
+
